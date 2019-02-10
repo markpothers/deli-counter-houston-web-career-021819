@@ -1,10 +1,10 @@
 # Write your code here.
 def line(line)
   if line.size > 0
-      x = 0
       line_string = ["The line is currently:"]
-        while x < line_string.size-1
-          line_string.push(x+1)
+        x = 0
+        while x < line_string.size
+          line_string.push(x + 1)
           line_string.push(line[x])
           x += 1
         end
