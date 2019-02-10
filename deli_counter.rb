@@ -18,4 +18,5 @@ def now_serving(deli)
     old_first = []
     old_first.push(deli[0])
     puts "Currently serving #{deli.shift}."
+  end
 end
