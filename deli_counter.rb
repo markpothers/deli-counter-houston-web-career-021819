@@ -3,7 +3,7 @@ def line(line)
   if line.size > 0
       line_string = ["The line is currently:"]
         x = 0
-        while x < line_string.size
+        while x < line_string.size-1
           line_string.push(x + 1)
           line_string.push(line[x])
           x += 1
