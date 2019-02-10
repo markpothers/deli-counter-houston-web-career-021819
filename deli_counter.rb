@@ -4,9 +4,10 @@ def line(line)
       line_string = ["The line is currently:"]
         x = 0
           until x == line.size - 1
-          line_string.push(x + 1)
-          line_string.push(line[x])
-          x += 1
+            line_string.push(x + 1)
+            line_string.push(line[x])
+            x += 1
+          end
       puts line_string
   else
     puts "The line is currently empty."
