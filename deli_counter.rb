@@ -10,6 +10,7 @@ def line(line)
             line_string.push(" ")
             x += 1
           end
+      lne.string.pop
       puts line_string.join
   else
     puts "The line is currently empty."
