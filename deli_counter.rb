@@ -5,7 +5,7 @@ def line(line)
         x = 0
           until x == line.size
             line_string.push(x + 1 )
-            line_string.push(" ")
+            line_string.push(". ")
             line_string.push(line[x])
             line_string.push(" ")
             x += 1
