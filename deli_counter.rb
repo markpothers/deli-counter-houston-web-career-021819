@@ -1,14 +1,14 @@
 # Write your code here.
 def line(line)
   if line.size > 0
-      line_string = ["The line is currently:"]
+      line_string = ["The line is currently: "]
         x = 0
           until x == line.size
-            line_string.push(x + 1)
-            line_string.push(line[x])
+            line_string.push(x + 1 " ")
+            line_string.push(line[x] " ")
             x += 1
           end
-      puts line_string
+      puts line_string.join
   else
     puts "The line is currently empty."
   end
